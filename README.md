@@ -1,4 +1,5 @@
 # ⚡ Ethery LOD Far Lightning Bolt
+<img width="1917" height="1004" alt="Screenshot 2026-11-15 073327" src="https://github.com/user-attachments/assets/a4c4988e-7967-423c-9845-9a2b365183a3" />
 
 See jagged, branching lightning bolts strike across **Distant Horizons** LOD terrain from thousands of blocks away!
 
