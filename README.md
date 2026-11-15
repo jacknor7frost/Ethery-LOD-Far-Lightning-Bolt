@@ -4,6 +4,8 @@ See jagged, branching lightning bolts strike across **Distant Horizons** LOD ter
 
 In vanilla Minecraft, lightning strikes beyond your loaded chunk render distance are completely invisible—leaving distant storms silent and dark on the horizon. **Ethery LOD Far Lightning Bolt** bridges that gap by rendering glowing, jagged lightning strikes directly inside Distant Horizons' LOD world.
 
+<img width="1916" height="1004" alt="Screenshot 2026-11-15 080037" src="https://github.com/user-attachments/assets/420a52bb-1df6-42ba-9cc1-44da845aa815" />
+
 ---
 
 ### ✨ Features
