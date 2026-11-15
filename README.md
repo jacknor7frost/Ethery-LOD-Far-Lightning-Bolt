@@ -2,11 +2,10 @@
 <img width="1917" height="1004" alt="Screenshot 2026-11-15 073327" src="https://github.com/user-attachments/assets/a4c4988e-7967-423c-9845-9a2b365183a3" />
 
 See jagged, branching lightning bolts strike across **Distant Horizons** LOD terrain from thousands of blocks away!
-
 In vanilla Minecraft, lightning strikes beyond your loaded chunk render distance are completely invisible—leaving distant storms silent and dark on the horizon. **Ethery LOD Far Lightning Bolt** bridges that gap by rendering glowing, jagged lightning strikes directly inside Distant Horizons' LOD world.
-
 <img width="1916" height="1004" alt="Screenshot 2026-11-15 080037" src="https://github.com/user-attachments/assets/420a52bb-1df6-42ba-9cc1-44da845aa815" />
-
+* //Shaders on//
+* <img width="841" height="494" alt="Screenshot 2026-11-15 023824" src="https://github.com/user-attachments/assets/eb515453-fe22-4ae8-bdda-33df48cb84aa" />
 ---
 
 ### ✨ Features
@@ -15,8 +14,7 @@ In vanilla Minecraft, lightning strikes beyond your loaded chunk render distance
 * **Seamless Vanilla Handoff:** Automatically lets vanilla Minecraft render close-range strikes while smoothly taking over beyond your render distance.
 * **Configurable:** Customize maximum render distance and toggle the effect in the config file.
 * **Multiplayer Ready:** Syncs distant server lightning events cleanly to connected clients.
-* //Shaders on//
-* <img width="841" height="494" alt="Screenshot 2026-11-15 023824" src="https://github.com/user-attachments/assets/eb515453-fe22-4ae8-bdda-33df48cb84aa" />
+
 
 ---
 
