@@ -15,8 +15,8 @@ In vanilla Minecraft, lightning strikes beyond your loaded chunk render distance
 * **Seamless Vanilla Handoff:** Automatically lets vanilla Minecraft render close-range strikes while smoothly taking over beyond your render distance.
 * **Configurable:** Customize maximum render distance and toggle the effect in the config file.
 * **Multiplayer Ready:** Syncs distant server lightning events cleanly to connected clients.
-//Shaders on//
-<img width="841" height="494" alt="Screenshot 2026-11-15 023824" src="https://github.com/user-attachments/assets/eb515453-fe22-4ae8-bdda-33df48cb84aa" />
+* //Shaders on//
+* <img width="841" height="494" alt="Screenshot 2026-11-15 023824" src="https://github.com/user-attachments/assets/eb515453-fe22-4ae8-bdda-33df48cb84aa" />
 
 ---
 
