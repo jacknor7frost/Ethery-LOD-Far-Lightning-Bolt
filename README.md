@@ -27,6 +27,7 @@ In vanilla Minecraft, lightning strikes beyond your loaded chunk render distance
 * **Jack_Moo** — Creator, Project Direction, Implementation, Testing & Data
 * **DeepSeek AI** — Code Architect, DH API Integration & Networking
 * **Gemini AI** — Random Walk & Branching Logic, Code Review & Bug Fixes
+* **NightCafe AI** — Mod Icon & Visual Artwor
 * Built using [MCreator](https://mcreator.net)
 
 *Released openly under the **MIT License**—feel free to include this mod in any modpack or build upon it!*
