@@ -1,0 +1,39 @@
+{
+  "mod_elements": [],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {}
+  },
+  "metadata": {
+    "files": [
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/META-INF/mods.toml",
+      "src/main/java/etherydhfarlightningbolts/EtheryDhFarlightningBoltMod.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "ethery_dh_farlightning_bolt",
+    "modName": "ethery_dh_farlightning_bolt",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "modPicture": "lod_farlightning_-_copy",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Jack_Moo (Project Direction, Code Implementation, In-Game Debugging \u0026 Testing) + Gemini AI (Random Walk \u0026 Branching Logic) + DeepSeek AI (DH API Architecture, Networking Logic, \u0026 Math Design) - Created using MCreator - https://mcreator.net/about",
+    "modElementsPackage": "etherydhfarlightningbolts"
+  },
+  "mcreatorVersion": 202600114619
+}

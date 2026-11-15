@@ -1,0 +1,40 @@
+{
+  "mod_elements": [],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {}
+  },
+  "metadata": {
+    "files": [
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/META-INF/mods.toml",
+      "src/main/java/etherydhfarlightningbolts/EtheryDhFarlightningBoltMod.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "ethery_dh_farlightning_bolt",
+    "modName": "Ethery LOD farlightning bolt",
+    "version": "1.0.0",
+    "description": "\u0027\u0027\u0027See jagged lightning bolts strike across Distant Horizons LOD terrain from thousands of blocks away!\u0027\u0027\u0027 ",
+    "author": "JackMoo",
+    "websiteURL": "https://mcreator.net",
+    "license": "MIT License",
+    "serverSideOnly": false,
+    "modPicture": "lod_farlightning_-_copy",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "\"Jack_Moo (Creator, Project Direction, Implementation, Testing \u0026 Data) + DeepSeek AI (Code Architect, DH API \u0026 Networking) + Gemini AI (Random Walk \u0026 Branching Logic, Code Review \u0026 Bug Fixes) - Created using MCreator - https://mcreator.net\" ",
+    "modElementsPackage": "etherydhfarlightningbolts"
+  },
+  "mcreatorVersion": 202600114619
+}

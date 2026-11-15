@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT License"
+
+[[mods]]
+modId="ethery_dh_farlightning_bolt"
+version="1.0.0"
+displayName="Ethery LOD farlightning bolt"
+displayURL="https://mcreator.net"
+logoFile="logo.png"
+credits="\"Jack_Moo (Creator, Project Direction, Implementation, Testing & Data) + DeepSeek AI (Code Architect, DH API & Networking) + Gemini AI (Random Walk & Branching Logic, Code Review & Bug Fixes) - Created using MCreator - https://mcreator.net\" "
+authors="JackMoo"
+description="'''See jagged lightning bolts strike across Distant Horizons LOD terrain from thousands of blocks away!''' "
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.ethery_dh_farlightning_bolt]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

@@ -1,0 +1,86 @@
+plugins {
+    id 'eclipse'
+    id 'net.neoforged.moddev.legacyforge' version '2.0.141'
+}
+
+version = '1.0'
+base.archivesName = "modid"
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+
+legacyForge {
+    version = "1.20.1-47.4.20"
+
+    runs {
+        client {
+            client()
+
+            def mcreatorJvmOptions = System.getenv('MCREATOR_JVM_OPTIONS')
+            if (mcreatorJvmOptions) {
+                mcreatorJvmOptions.split("\\s+").findAll { it.trim() }.each { arg ->
+                    jvmArgument(arg)
+                }
+            }
+        }
+        server {
+            server()
+        }
+
+        configureEach {
+            systemProperty 'forge.logging.markers', 'REGISTRIES'
+            logLevel = org.slf4j.event.Level.DEBUG
+        }
+    }
+
+    mods {
+        mcreator {
+            sourceSet sourceSets.main
+        }
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8' // Use the UTF-8 charset for Java compilation
+}
+
+mixin {
+    if (file("src/main/resources/ethery_dh_farlightning_bolt.mixins.json").exists()) {
+        add sourceSets.main, "ethery_dh_farlightning_bolt.refmap.json"
+        config "ethery_dh_farlightning_bolt.mixins.json"
+    }
+}
+
+repositories {
+    exclusiveContent {
+        forRepository {
+            maven {
+                name = "Modrinth"
+                url = "https://api.modrinth.com/maven"
+            }
+        }
+        // forRepositories(fg.repository) // Uncomment when using ForgeGradle
+        filter {
+            includeGroup "maven.modrinth"
+        }
+    }
+}
+
+dependencies {
+    compileOnly(annotationProcessor("io.github.llamalad7:mixinextras-common:0.5.0"))
+    implementation(jarJar("io.github.llamalad7:mixinextras-forge:0.5.0"))
+    annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
+
+    modImplementation "maven.modrinth:Xs0XTOVv:LTP8vW3B"
+
+    
+}
+
+jar {
+    if (file("src/main/resources/ethery_dh_farlightning_bolt.mixins.json").exists()) {
+        manifest.attributes([
+                "MixinConfigs": "ethery_dh_farlightning_bolt.mixins.json"
+        ])
+    }
+}
+
+apply from: 'mcreator.gradle'
